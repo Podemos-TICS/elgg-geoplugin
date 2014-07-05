@@ -13,7 +13,7 @@ $region = $owner->region;
 
 if ($city) {
 	echo '<div class="user-location">';
-	echo '<img src="' . elgg_get_site_url() . 'mod/myspace/images/location.png' . '" />';
+	echo '<img src="' . elgg_get_site_url() . 'mod/geoplugin/_graphics/location.png' . '" />';
 	echo $city . ', ' . $region;
 	echo '</div>';
 }
